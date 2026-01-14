@@ -1,6 +1,6 @@
 // javascript: 
 async function loadAccessibilityChecker() {
-	const gistRawUrl = 'https://gist.githubusercontent.com/kangTaehee/528bca2d42759a8e81874d5b33c74c01/raw';
+	const gistRawUrl = 'https://kangtaehee.github.io/axe.ko/axe.ko.min.js';
 	try {
 		const response = await fetch(gistRawUrl);
 		if (!response.ok) throw new Error('네트워크 응답에 문제가 있습니다.');
